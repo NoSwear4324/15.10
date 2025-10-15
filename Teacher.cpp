@@ -34,6 +34,9 @@ int Teacher::getHours() const
 
 void Teacher::showInfo() const
 {
+    cout << "++++++++++++++++++++++++++++++++\n";
+    cout << "TEACHER ";
+    Employee::showInfo();
 }
 
 float Teacher::calcSalary() const
