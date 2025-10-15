@@ -43,5 +43,5 @@ void Teacher::showInfo() const
 
 float Teacher::calcSalary() const
 {
-    return (salary + hours*cost);
+    return (salary + hours*cost) * 0.78;
 }
