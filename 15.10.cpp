@@ -30,6 +30,6 @@ int main()
     //Вивести на екран лише менеджерів
     for (int i = 0; i < arr.size(); i++)
     {
-        cout << typeid(arr[i]).name() << endl;
+        cout << typeid(*arr[i]).name() << endl;
     }
 }
