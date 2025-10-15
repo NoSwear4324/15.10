@@ -43,9 +43,8 @@ int main()
 
     for (int i = 0; i < arr.size(); i++)
     {
-       /*if (typeid(*arr[i]) == typeid(Teacher)
+       /*if (typeid(*arr[i]) == typeid(Teacher))
         {
-
             Teacher* p = (Teacher*)arr[i];
             p->setCost(p->getCost() + 50);
             p-> showInfo();
