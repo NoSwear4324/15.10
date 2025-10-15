@@ -40,7 +40,7 @@ int main()
 
     cout << "======================================\n\n";
     //Кожному викладечеві збільшити вартість заняття на 50 грн
-
+    cout << "List of teachers: \n";
     for (int i = 0; i < arr.size(); i++)
     {
        /*if (typeid(*arr[i]) == typeid(Teacher))
