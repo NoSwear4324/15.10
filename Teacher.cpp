@@ -24,12 +24,12 @@ void Teacher::setHours(int hours)
 
 float Teacher::getCost() const
 {
-    return 0.0f;
+    return cost;
 }
 
 int Teacher::getHours() const
 {
-    return 0;
+    return hours;
 }
 
 void Teacher::showInfo() const
