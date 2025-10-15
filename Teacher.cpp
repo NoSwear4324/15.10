@@ -34,7 +34,7 @@ int Teacher::getHours() const
 
 void Teacher::showInfo() const
 {
-    cout << "++++++++++++++++++++++++++++++++\n";
+    cout << "++++++++++++++++++++++++++\n";
     cout << "TEACHER ";
     Employee::showInfo();
     cout << "Hours: " << hours << endl;
