@@ -20,7 +20,9 @@ int main()
 
     for (int i = 0; i < arr.size(); i++)
     {
-        cout << arr[i] << endl; // address
+        //cout << arr[i] << endl; // address
+        //(*arr[i]).showInfo();
+        arr[i]->showInfo();
     }
 
 }
