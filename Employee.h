@@ -19,6 +19,6 @@ public:
 	float getSalary()const;
 
 	void showInfo()const;
-
+	float calcSalary()const;
 };
 
