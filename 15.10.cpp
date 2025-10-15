@@ -3,6 +3,7 @@
 #include "Employee.h"
 #include <vector>
 #include <algorithm>
+#include <typeinfo>
 
 int main()
 {
@@ -27,5 +28,8 @@ int main()
     }
     cout << "======================================\n\n";
     //Вивести на екран лише менеджерів
-
+    for (int i = 0; i < arr.size(); i++)
+    {
+        cout << typeid(arr[i]).name() << endl;
+    }
 }
