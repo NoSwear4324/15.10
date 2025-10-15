@@ -23,6 +23,7 @@ int main()
         //cout << arr[i] << endl; // address
         //(*arr[i]).showInfo();
         arr[i]->showInfo();
+        cout << endl;
     }
 
 }
