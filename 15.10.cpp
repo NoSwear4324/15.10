@@ -12,7 +12,7 @@ int main()
 
     vector<Employee*> arr = {
         &a, &b, &d,
-        new Teacher("Gudzenko Dmytro", 13'000, 1,500, 20),
+        new Teacher("Gudzenko Dmytro", 13'000, 1'500, 20),
         new Manager("Dudolad Yaroslav", 30'000, 10, 200'000),
     };
 
