@@ -31,3 +31,17 @@ float Manager::getSales() const
 {
     return sales;
 }
+
+void Manager::showInfo() const
+{
+    cout << "++++++++++++++++++++++++++++++++\n";
+    cout << "MANAGER ";
+    Employee::showInfo();
+    cout << "Percent: " << percent << endl;
+    cout << "Sales: " << sales << endl;
+}
+
+float Manager::calcSalary() const
+{
+    return (salary + sales*percent/100) * 0.78;
+}
