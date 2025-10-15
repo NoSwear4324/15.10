@@ -41,5 +41,5 @@ void Employee::showInfo() const
 
 float Employee::calcSalary() const
 {
-    return salary - salary;
+    return salary - salary*0.22;
 }
