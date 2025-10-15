@@ -18,6 +18,9 @@ int main()
 
     arr.push_back(new Manager("Zotov Petro", 23'000, 50, 100'000));
 
-
+    for (int i = 0; i < arr.size(); i++)
+    {
+        cout << arr[i] << endl; // address
+    }
 
 }
