@@ -4,6 +4,7 @@
 #include <vector>
 #include <algorithm>
 #include <typeinfo>
+#include <iomanip>
 
 int main()
 {
@@ -55,4 +56,16 @@ int main()
             p->showInfo();
         }
     }
+
+    cout << "======================================\n\n";
+    //Відсортувати всіх співробітників за зп
+    sort(arr.begin(), arr.end(), [](const Employee* left, const Employee* right) {return left->calcSalary() < right->calcSalary();
+    });
+
+
+    for (auto item : arr) 
+    {
+        cout << setw(20) << item->getName() << setw(15) << typeid(*item).name() << setw(10) << item->calcSalary() << endl;
+    }
+
 }
